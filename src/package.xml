@@ -48,7 +48,7 @@
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
-        <members>Document</members>
+        <!--<members>Document</members>-->
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
@@ -71,7 +71,7 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
-        <members>PushTopic</members>
+        <!--<members>PushTopic</members>-->
         <members>SOSSession</members>
         <members>SOSSessionActivity</members>
         <members>Site</members>
@@ -152,9 +152,9 @@
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>WorkFeedbackRequest.AboutTopics</members>
-        <members>WorkFeedbackRequest.All</members>
-        <members>WorkFeedbackTemplate.All</members>
+        <!--<members>WorkFeedbackRequest.AboutTopics</members>-->
+        <!--<members>WorkFeedbackRequest.All</members>-->
+        <!--<members>WorkFeedbackTemplate.All</members>-->
         <name>ListView</name>
     </types>
     <types>
@@ -165,10 +165,10 @@
         <members>*</members>
         <name>Profile</name>
     </types>
-    <types>
-        <members>unfiled$public</members>
-        <name>Report</name>
-    </types>
+    <!--<types>-->
+        <!--<members>unfiled$public</members>-->
+        <!--<name>Report</name>-->
+    <!--</types>-->
     <types>
         <members>*</members>
         <name>Role</name>
@@ -188,9 +188,9 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>Workflow</name>
-    </types>
+    <!--<types>-->
+        <!--<members>*</members>-->
+        <!--<name>Workflow</name>-->
+    <!--</types>-->
     <version>40.0</version>
 </Package>
