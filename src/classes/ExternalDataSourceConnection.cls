@@ -32,7 +32,6 @@ public with sharing class ExternalDataSourceConnection  extends DataSource.Conne
         String table = context.tableSelection.tableSelected;
         DataSource.TableResult result;
 
-
         List<Map<String, Object>> rows = new List<Map<String, Object>>();
         Map<String, Object> row1 = new Map<String, Object>();
         row1.put('ExternalId', 'DB7Q1311ND');
