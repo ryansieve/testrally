@@ -50,6 +50,9 @@ public with sharing class ExternalDataSourceConnection  extends DataSource.Conne
 
         long now = System.currentTimeMillis();
         system.debug('DATA SOURCE PROVIDER TIME: ' + (now - past));
+
+        system.debug('US10 comment');
+
         return result;
     }
 
