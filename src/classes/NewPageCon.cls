@@ -7,4 +7,7 @@ public with sharing class NewPageCon {
     public NewPageCon(Apexpages.Standardcontroller con){
         this.con = con;
     }
+    public string getCurrentTime(){
+        return string.valueOf(system.now());
+    }
 }

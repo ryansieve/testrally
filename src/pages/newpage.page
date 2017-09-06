@@ -3,4 +3,13 @@
  -->
 
 <apex:page id="newpage" standardController="Account" extensions="NewPageCon">
+    <apex:pageBlock>
+        <apex:pageBlockSection>
+            <apex:pageBlockSectionItem>
+                <apex:outputLabel value="Current Time"/>
+                <apex:outputText value="{!currentTime}"/>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
 </apex:page>
