@@ -9,6 +9,10 @@
                 <apex:outputLabel value="Current Time"/>
                 <apex:outputText value="{!currentTime}"/>
             </apex:pageBlockSectionItem>
+            <apex:pageBlockSectionItem>
+                <apex:outputLabel value="User ID"/>
+                <apex:outputText value="{!userId}"/>
+            </apex:pageBlockSectionItem>
         </apex:pageBlockSection>
     </apex:pageBlock>
 
