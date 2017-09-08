@@ -14,6 +14,7 @@ public with sharing class NewPageCon {
     }
 
     public string getUserId(){
+        system.debug(userinfo.getUserId());
         return userinfo.getUserId();
     }
 
